@@ -6,8 +6,8 @@
 #
 # chkconfig: 345 60 60
 # description: gkgnugk is the gnu gatekeeper
-# processname: /usr/local/gnugk/bin/gnugk
-# config: /usr/local/gnugk/etc/gnugk.ini
+# processname: /usr/local/openh323gk/bin/gnugk
+# config: /usr/local/openh323gk/etc/gnugk.ini
 #
 # Maintained by Mehul Bhatt <mehulsbhatt@hotmail.com>
 #               Mehul Bhatt Inc.
@@ -18,7 +18,7 @@
 
 GKEXE=/usr/bin/gnugk
 GKPID=/var/run/gnugk.pid
-GKCONFIG=/usr/local/etc/openh323gk/gnugk.ini
+GKCONFIG=/usr/local/openh323gk/etc/gnugk.ini
 LOGFILE=/var/log/openh323gk/openh323gk.log
 LOCKFILE=/var/lock/subsys/gnugk
 
