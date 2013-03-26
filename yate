@@ -19,7 +19,7 @@ RETVAL=0
 
 start() {
     echo -n $"Starting YATE: "
-    daemon /usr/local/bin/yate -d -p /var/run/yate.pid $OPTS
+    daemon /usr/local/yate/bin/yate -d -p /var/run/yate.pid $OPTS
     RETVAL=$?
     echo
     [ $RETVAL -eq 0 ] && touch /var/lock/subsys/yate
